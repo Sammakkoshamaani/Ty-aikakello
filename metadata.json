@@ -1,0 +1,6 @@
+{
+  "name": "Työaikakello",
+  "description": "Nykyaikainen työaikakello ja työtuntien seurantasovellus reaaliaikaisella näkymällä ja päiväkohtaisella historialla.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
