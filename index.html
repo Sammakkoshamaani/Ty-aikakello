@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Työaikakello - Työtuntien ja vuorojen seuranta</title>
+    <meta name="description" content="Nykyaikainen työaikakello ja työtuntien seurantasovellus reaaliaikaisella näkymällä ja päiväkohtaisella historialla." />
+    <meta property="og:title" content="Työaikakello - Työtuntien ja vuorojen seuranta" />
+    <meta property="og:description" content="Nykyaikainen työaikakello ja työtuntien seurantasovellus reaaliaikaisella näkymällä ja päiväkohtaisella historialla." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#059669" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="apple-touch-icon" href="icon.svg" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/Ty-aikakello/assets/index-C9UMdbZ1.js"></script>
+    <link rel="stylesheet" crossorigin href="/Ty-aikakello/assets/index-CGg3f9dL.css">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-['Plus_Jakarta_Sans',sans-serif] selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js')
+            .then(reg => console.log('Service Worker registered successfully!', reg.scope))
+            .catch(err => console.log('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
+
